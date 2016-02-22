@@ -2,14 +2,20 @@ Locator = require './locator'
 
 class BuildLocator extends Locator
   @dimensions [
+    'affectedProject',
+    'branch',
     'buildType'
-    'tags'
-    'status'
+    'canceled',
+    'count',
+    'failedToStart',
+    'id',
+    'personal',
+    'pinned',
+    'running',
+    'state',
+    'status',
+    'tags',
     'user'
-    'personal'
-    'canceled'
-    'running'
-    'pinned'
   ]
 
 module.exports = BuildLocator
