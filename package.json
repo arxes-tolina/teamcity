@@ -2,7 +2,7 @@
   "name": "teamcity",
   "version": "1.0.0-preview",
   "description": "TeamCity API for NodeJS",
-  "license": "MIT",
+  "license": "MIT", 
   "repository": "jeef3/teamcity",
   "maintainers": [
     "Jeff Knaggs <mail@jeef3.com>"
