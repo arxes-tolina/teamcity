@@ -1,5 +1,4 @@
 {
-
   "name": "teamcity",
   "version": "1.0.0-preview",
   "description": "TeamCity API for NodeJS",
