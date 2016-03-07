@@ -1,5 +1,5 @@
 {
-  "name": "teamcity",
+  "name": "teamcity-tolina",
   "version": "1.0.0-preview", 
   "description": "TeamCity API for NodeJS",
   "license": "MIT", 
@@ -7,6 +7,9 @@
   "maintainers": [
     "Jeff Knaggs <mail@jeef3.com>"
   ],
+   "publishConfig": {
+    "registry": "http://srvrepo.tolina.local/dotnet/content/repositories/tolina-test-npm-registry/"
+  },
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register",
     "test:w": "npm run test -- --watch",
